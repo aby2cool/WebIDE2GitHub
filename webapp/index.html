@@ -18,7 +18,9 @@
 		</script>
 		<script>
 			sap.ui.getCore().attachInit(function (){
-				new sapalert("SAPUI5 is ready")
+				new sap.ui.core.ComponentContainer({
+					name : "opensap.webide2github"
+				}).placeAt("content");	
 			});
 		</script>
 	</head>

@@ -1,0 +1,10 @@
+<mvc:View
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+		<App>
+			<pages>
+				<Page title="openSAP - Git Trial">
+			</pages>	
+		</App>
+</mvc:View>
